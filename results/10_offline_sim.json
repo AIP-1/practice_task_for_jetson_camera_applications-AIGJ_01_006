@@ -1,0 +1,349 @@
+{
+ "kind": "offline simulation (no new measurement)",
+ "assumption": "광축이 보드 가운데를 향함, 왜곡 무시, 발목 0.08·어깨 1.40·코 1.60 m, 사람은 타겟에서 카메라 반대쪽",
+ "batch5": {
+  "cam0": {
+   "pos_m": [
+    1.45,
+    -0.101,
+    1.217
+   ],
+   "pitch_deg": -41.6
+  },
+  "cam1": {
+   "pos_m": [
+    1.516,
+    0.624,
+    1.284
+   ],
+   "pitch_deg": -39.0
+  }
+ },
+ "visibility_batch5": [
+  {
+   "r_m": 0.5,
+   "cam_to_person_m": 1.87,
+   "cam0": {
+    "ankle": true,
+    "shoulder": false,
+    "nose": false
+   },
+   "cam1": {
+    "ankle": true,
+    "shoulder": false,
+    "nose": false
+   }
+  },
+  {
+   "r_m": 1.0,
+   "cam_to_person_m": 2.37,
+   "cam0": {
+    "ankle": true,
+    "shoulder": false,
+    "nose": false
+   },
+   "cam1": {
+    "ankle": true,
+    "shoulder": false,
+    "nose": false
+   }
+  },
+  {
+   "r_m": 2.0,
+   "cam_to_person_m": 3.37,
+   "cam0": {
+    "ankle": false,
+    "shoulder": false,
+    "nose": false
+   },
+   "cam1": {
+    "ankle": true,
+    "shoulder": false,
+    "nose": false
+   }
+  },
+  {
+   "r_m": 3.0,
+   "cam_to_person_m": 4.37,
+   "cam0": {
+    "ankle": false,
+    "shoulder": false,
+    "nose": false
+   },
+   "cam1": {
+    "ankle": false,
+    "shoulder": false,
+    "nose": false
+   }
+  }
+ ],
+ "seen_ratio_10_28": {
+  "0.5": 1.0,
+  "1.0": 1.0,
+  "2.0": 0.04,
+  "3.0": 0.0
+ },
+ "ankle_bias_batch5": [
+  {
+   "r_m": 0.5,
+   "app_d_m": 0.632,
+   "bias_m": 0.132
+  },
+  {
+   "r_m": 1.0,
+   "app_d_m": 1.167,
+   "bias_m": 0.167
+  }
+ ],
+ "sensitivity": [
+  {
+   "pitch_shift_deg": -5,
+   "visibility": [
+    {
+     "r_m": 0.5,
+     "cam_to_person_m": 1.87,
+     "cam0": {
+      "ankle": true,
+      "shoulder": false,
+      "nose": false
+     },
+     "cam1": {
+      "ankle": true,
+      "shoulder": false,
+      "nose": false
+     }
+    },
+    {
+     "r_m": 1.0,
+     "cam_to_person_m": 2.37,
+     "cam0": {
+      "ankle": true,
+      "shoulder": false,
+      "nose": false
+     },
+     "cam1": {
+      "ankle": true,
+      "shoulder": false,
+      "nose": false
+     }
+    },
+    {
+     "r_m": 2.0,
+     "cam_to_person_m": 3.37,
+     "cam0": {
+      "ankle": false,
+      "shoulder": false,
+      "nose": false
+     },
+     "cam1": {
+      "ankle": false,
+      "shoulder": false,
+      "nose": false
+     }
+    },
+    {
+     "r_m": 3.0,
+     "cam_to_person_m": 4.37,
+     "cam0": {
+      "ankle": false,
+      "shoulder": false,
+      "nose": false
+     },
+     "cam1": {
+      "ankle": false,
+      "shoulder": false,
+      "nose": false
+     }
+    }
+   ]
+  },
+  {
+   "pitch_shift_deg": 5,
+   "visibility": [
+    {
+     "r_m": 0.5,
+     "cam_to_person_m": 1.87,
+     "cam0": {
+      "ankle": true,
+      "shoulder": false,
+      "nose": false
+     },
+     "cam1": {
+      "ankle": true,
+      "shoulder": false,
+      "nose": false
+     }
+    },
+    {
+     "r_m": 1.0,
+     "cam_to_person_m": 2.37,
+     "cam0": {
+      "ankle": true,
+      "shoulder": false,
+      "nose": false
+     },
+     "cam1": {
+      "ankle": true,
+      "shoulder": false,
+      "nose": false
+     }
+    },
+    {
+     "r_m": 2.0,
+     "cam_to_person_m": 3.37,
+     "cam0": {
+      "ankle": true,
+      "shoulder": false,
+      "nose": false
+     },
+     "cam1": {
+      "ankle": true,
+      "shoulder": false,
+      "nose": false
+     }
+    },
+    {
+     "r_m": 3.0,
+     "cam_to_person_m": 4.37,
+     "cam0": {
+      "ankle": true,
+      "shoulder": false,
+      "nose": false
+     },
+     "cam1": {
+      "ankle": true,
+      "shoulder": false,
+      "nose": false
+     }
+    }
+   ]
+  }
+ ],
+ "proposed": {
+  "pitch_deg": -12.0,
+  "visibility": [
+   {
+    "r_m": 0.5,
+    "cam_to_person_m": 1.87,
+    "cam0": {
+     "ankle": true,
+     "shoulder": true,
+     "nose": false
+    },
+    "cam1": {
+     "ankle": true,
+     "shoulder": true,
+     "nose": true
+    }
+   },
+   {
+    "r_m": 1.0,
+    "cam_to_person_m": 2.37,
+    "cam0": {
+     "ankle": true,
+     "shoulder": true,
+     "nose": true
+    },
+    "cam1": {
+     "ankle": true,
+     "shoulder": true,
+     "nose": true
+    }
+   },
+   {
+    "r_m": 2.0,
+    "cam_to_person_m": 3.37,
+    "cam0": {
+     "ankle": true,
+     "shoulder": true,
+     "nose": true
+    },
+    "cam1": {
+     "ankle": true,
+     "shoulder": true,
+     "nose": true
+    }
+   },
+   {
+    "r_m": 3.0,
+    "cam_to_person_m": 4.37,
+    "cam0": {
+     "ankle": true,
+     "shoulder": true,
+     "nose": true
+    },
+    "cam1": {
+     "ankle": true,
+     "shoulder": true,
+     "nose": true
+    }
+   }
+  ],
+  "stereo_err_sigma2px": [
+   {
+    "r_m": 0.5,
+    "visible": true,
+    "median_cm": 1.6,
+    "p95_cm": 4.6
+   },
+   {
+    "r_m": 1.0,
+    "visible": true,
+    "median_cm": 2.6,
+    "p95_cm": 6.9
+   },
+   {
+    "r_m": 2.0,
+    "visible": true,
+    "median_cm": 4.7,
+    "p95_cm": 13.6
+   },
+   {
+    "r_m": 3.0,
+    "visible": true,
+    "median_cm": 7.4,
+    "p95_cm": 22.9
+   }
+  ],
+  "stereo_err_sigma5px": [
+   {
+    "r_m": 0.5,
+    "visible": true,
+    "median_cm": 4.1,
+    "p95_cm": 11.8
+   },
+   {
+    "r_m": 1.0,
+    "visible": true,
+    "median_cm": 6.3,
+    "p95_cm": 17.2
+   },
+   {
+    "r_m": 2.0,
+    "visible": true,
+    "median_cm": 12.0,
+    "p95_cm": 34.3
+   },
+   {
+    "r_m": 3.0,
+    "visible": true,
+    "median_cm": 18.9,
+    "p95_cm": 57.8
+   }
+  ],
+  "board_min_height_9x6_2cm": {
+   "height_m": 0.4,
+   "board_width_px": {
+    "cam0": 33.4,
+    "cam1": 36.8
+   }
+  },
+  "board_min_height_7x4_9cm": {
+   "height_m": 0.5,
+   "board_width_px": {
+    "cam0": 105.7,
+    "cam1": 123.6
+   }
+  }
+ }
+}

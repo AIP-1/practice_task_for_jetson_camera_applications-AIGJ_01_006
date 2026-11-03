@@ -6,3 +6,17 @@
 __pycache__/
 .venv/
 lab/media/
+*.pth
+mobileclip*.ts
+lab/*.ts
+runs/
+media/
+*.wav
+# 비밀 값 (RTSP 주소·카메라 계정)
+.env
+.env.*
+# 10단계 보정 결과 (장비마다 다름, 스냅샷에 사람이 찍힐 수 있음)
+prox/calib/*.npz
+prox/calib/*.jpg
+prox/calib/clicks.json
+prox/calib/world_points.json
